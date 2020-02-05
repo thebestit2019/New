@@ -66,14 +66,15 @@
 
 }
 
-.btn{
+.btnd{
     width: 40%;
     height: 30px;
-    text-align: center;
+    /* text-align: center; */
     vertical-align: middle;
     line-height: 30px;
-    margin: 0 auto;
+    margin: 0  auto;
     border: solid blue 1px;
+   
 }
 
 .btnLog{
