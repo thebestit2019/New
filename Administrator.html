@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Administrator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Admin.css">
+    </head>
+    <body>
+        <form>
+            <div id="conteiner">
+                <div id="jmbg">
+                    <input type="text" placeholder="JMBG radnika">
+                </div>
+            
+                <input type="text" placeholder="PIN radnika">
+            <input type="text" placeholder="Ime radnika">
+            <input type="text" placeholder="Prezime radnika">
+            <select name="Titula" id="titula">
+                <option value="bez titule">  </option>
+                <option value="Doktor">Doktor</option>
+                <option value="Sestra">Sestra</option>
+            </select>
+            <select name="Funkcija" id="funkcija">
+                <option value="Nacelnik">Nacelnik</option>
+                <option value="Direktor">Direktor</option>
+                <option value="Bez titule">Bez titule</option>
+            </select>
+            <select name="Sluzba" id="sluzba">
+                <option value="Opsta">Opsta</option>
+                <option value="Ginekologija">Ginekologija</option>
+                <option value="Pravna">Pravna</option>
+            </select>
+            <input type="time" placeholder="Pocetak I smene">
+            <input type="time" placeholder="Kraj I smene">
+            <input type="time" placeholder="Pocetak II smene">
+            <input type="time" placeholder="Kraj II smene">
+            <input type="submit" name="Prosledi">
+            </div>
+        </form>
+        
+        <script src="Admin.js" async defer></script>
+    </body>
+</html>
