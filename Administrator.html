@@ -14,29 +14,44 @@
     <body>
         <form>
             <div id="conteiner">
-                <div id="jmbg">
+                <div class="content jmbg">
                     <input type="text" placeholder="JMBG radnika">
                 </div>
-            
-                <input type="text" placeholder="PIN radnika">
-            <input type="text" placeholder="Ime radnika">
-            <input type="text" placeholder="Prezime radnika">
-            <select name="Titula" id="titula">
-                <option value="bez titule">  </option>
-                <option value="Doktor">Doktor</option>
-                <option value="Sestra">Sestra</option>
-            </select>
-            <select name="Funkcija" id="funkcija">
-                <option value="Nacelnik">Nacelnik</option>
-                <option value="Direktor">Direktor</option>
-                <option value="Bez titule">Bez titule</option>
-            </select>
-            <select name="Sluzba" id="sluzba">
+                <div class="content text">
+                    <input type="text" placeholder="PIN radnika">
+                </div>
+                <div class="content text">
+                    <input type="text" placeholder="Ime radnika">
+                </div>
+                <div class="content text">    
+                    <input type="text" placeholder="Prezime radnika">
+                </div>
+                <div class="content text">
+                    <select name="Titula" id="titula">
+                    <option value="bez titule"> </option>
+                    <option value="Doktor">Doktor</option>
+                    <option value="Sestra">Sestra</option>
+                    </select>
+                </div>
+                <div class="content Funkcija">
+                    <select name="Funkcija" id="funkcija">
+                    <option value="bez funkcije"> </option>
+                    <option value="Nacelnik">Nacelnik</option>
+                    <option value="Direktor">Direktor</option>
+                    <option value="Bez titule">Bez titule</option>
+                </select>
+                </div>
+            <div class="content Sluzba">
+                <select name="Sluzba" id="sluzba">
+                <option value="Bez sluzbe"> </option>
                 <option value="Opsta">Opsta</option>
                 <option value="Ginekologija">Ginekologija</option>
                 <option value="Pravna">Pravna</option>
-            </select>
+                </select>
+            </div> 
+            <div class="content vreme">
             <input type="time" placeholder="Pocetak I smene">
+            </div>
             <input type="time" placeholder="Kraj I smene">
             <input type="time" placeholder="Pocetak II smene">
             <input type="time" placeholder="Kraj II smene">
